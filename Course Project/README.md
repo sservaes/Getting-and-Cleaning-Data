@@ -7,7 +7,7 @@ This file describes how the script run_analysis.R works
 2. Use source("run_analysis.R") command in RStudio.
 
 3. You will find that two output files are generated in the current working directory:
-DT_merge.txt (9.9 Mb): it contains a data frame with a 10299*82 dimension.
-Tidy_DT.txt (268 Kb): it contains a data frame with a 180*82 dimension.
+  * DT_merge.txt (9.9 Mb): it contains a data frame with a 10299/82 dimension.
+  * Tidy_DT.txt (268 Kb): it contains a data frame with a 180/82 dimension.
 
 4. Use data <- read.table("data_with_means.txt") command in RStudio to read the file.
